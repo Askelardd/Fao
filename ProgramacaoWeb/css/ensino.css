@@ -176,6 +176,20 @@ body
     object-position: 78% 0;
 }
 
+.clarinhaa
+{
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 5px#154160;
+    -webkit-box-shadow: 10px 100px 50px #154160;
+    box-shadow: -10px 10px 5px #154160;
+    -moz-border-radius:10px;
+    width: 345px;
+    height: 682px;
+    object-fit: cover;
+    object-position: 48% 0;
+}
+
+
 .card-title
 {
     font-weight: bold ;
