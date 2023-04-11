@@ -122,12 +122,14 @@ a:hover {
   }
 
 
-.igreja
-{
-  width: 400px;
-  height: 400px;
-  margin-bottom: 0%;
 
+
+#min
+{
+    width:100%;
+    max-width:400px;
+    min-width: 200px;
+    min-height: 130px;
 }
 
 .conainer 
@@ -151,20 +153,8 @@ a:hover {
 {
     font-size: 30px;
     color: #fff !important;
-}
-
-.igreja
-{
-  width: 400px;
-  height: 400px;
-  margin-bottom: 0%;
 
 }
-
-.h3, .igreja{
-  display: inline-block;
-}
-
 
 /*Containers*/
 
@@ -191,6 +181,7 @@ a:hover {
 
 }
 
+
 .card-text
 {
   color: white;
@@ -203,12 +194,30 @@ a:hover {
 {
   justify-content: center;
   width: 100px;
+  object-fit: cover;
+  object-position: 78% 0;
 }
  
 .vertical
 {
   border-left: 4px solid white;
   height: 255px;
+}
+
+
+.img-fluid {
+  width: 50vh;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+
+}
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
 }
 
 button{
@@ -245,3 +254,9 @@ color: #148AAE;
  {
   font-size:max(60px, 5vw) !important;
  }
+
+ 
+img{
+  object-fit: cover;
+  object-position: 78% 0;
+}

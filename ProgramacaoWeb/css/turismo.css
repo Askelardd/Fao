@@ -129,20 +129,31 @@ transform: rotate(45deg) translate(-5px, -7px);
 .card-title
 {
     font-weight: bold ;
-    font-size: max(50px,3.2vw) ;
+    font-size: max(50px,3.5vw) ;
     color: #d9ee93 !important;
 
+}
+
+.title
+{
+    font-weight: bold ;
+    font-size: max(60px,4.5vw) ;
+    color: #d9ee93 !important;
 }
 
 .card-text{
 
     color: #fff;
-    font-size: max(30px,2vw) ;
+    font-size: max(30px,2.2vw) ;
 }
 
 #igreja
 {
     border-radius: 40px !important;
+    -moz-box-shadow: 10px 10px 5px#154160;
+    -webkit-box-shadow: 10px 100px 50px #154160;
+    box-shadow: -10px 10px 5px #154160;
+    -moz-border-radius:10px;
 }
 
 .museu
@@ -152,6 +163,11 @@ transform: rotate(45deg) translate(-5px, -7px);
     object-fit: cover;
     object-position: 78% 0;
     border-radius: 30px;
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 5px#154160;
+    -webkit-box-shadow: 10px 100px 50px #154160;
+    box-shadow: -10px 10px 5px #154160;
+    -moz-border-radius:10px;
 }
 .rodape 
 {

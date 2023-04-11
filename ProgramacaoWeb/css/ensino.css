@@ -123,9 +123,13 @@ transform: rotate(45deg) translate(-5px, -7px);
 
 .epe-logo
 {
-height: 354px;
-width: 365px;
-border-radius: 20px;
+    height: 354px;
+    width: 365px;
+    border-radius: 20px;
+    -moz-box-shadow: 10px 10px 5px#154160;
+    -webkit-box-shadow: 10px 100px 50px #154160;
+    box-shadow: -10px 10px 5px #154160;
+    -moz-border-radius:10px;
 }
 
 .big-title
@@ -149,7 +153,7 @@ border-radius: 20px;
 
 .rounded-top
 {
-    background-color: yellow;
+    background-color: #b6E48C;
     border-radius: 20px;
     color: #194e78;
 }
@@ -213,7 +217,7 @@ color: #148AAE;
     height: 170px;
     border-radius: 35px 35px 0px 0px;
     justify-content: space-around !important;
-    
+
 }
 
 .mid
@@ -235,4 +239,13 @@ font-weight: bold;
 font-size: 20px !important;
 line-height: 25px;
 color: #148AAE;
+}
+
+#eps
+{
+    background-color: #B6E48C;
+    border-radius: 0px 0px 40px 40px;
+    color: #194e78;
+    font-size: max(25px,2.7vw) ;
+    font-weight: bold ;
 }
