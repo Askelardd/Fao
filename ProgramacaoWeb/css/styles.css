@@ -130,6 +130,11 @@ a:hover {
     max-width:400px;
     min-width: 200px;
     min-height: 130px;
+    border-radius: 20px;
+    -moz-box-shadow: 10px 10px 5px #006793;
+    -webkit-box-shadow: 10px 100px 50px #006793;
+    box-shadow: -10px 10px 5px #006793;
+    -moz-border-radius:10px;
 }
 
 .conainer 
@@ -162,15 +167,6 @@ a:hover {
 {
   background-color: #008bb1;
   border-radius: 70px;
-}
-
-.img-fluid
-{
-  border-radius: 20px;
-  -moz-box-shadow: 10px 10px 5px #006793;
-  -webkit-box-shadow: 10px 100px 50px #006793;
-  box-shadow: -10px 10px 5px #006793;
-  -moz-border-radius:10px;
 }
 
 .card-title
@@ -206,8 +202,8 @@ a:hover {
 
 
 .img-fluid {
-  width: 50vh;
-  height: 50vh;
+  width: 150vh;
+  height: 90vh;
   overflow: hidden;
   display: flex;
 
